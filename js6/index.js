@@ -11,6 +11,9 @@ while (true) {
 
     const opt = prompt('Escribe una opcion:');
     if (opt == '1') break;
+    // if (opt<5) {
+    //     console.log
+    // }
     const n1 = prompt("Escribe un numero: ");
     const n2 = prompt("Escribe un numero: ");
 
