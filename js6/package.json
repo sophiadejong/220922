@@ -1,7 +1,12 @@
 {
-  "name": "220922",
+  "name": "js6",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sophiadejong/220922.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
