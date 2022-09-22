@@ -5,6 +5,10 @@ const isPalindromo = (str) => {
     return str.split('').reverse().join('') === str
 }
 
+const isPalindromo2 = (str) => {
+    str.split('').reverse().join('') === str
+}
+
 console.log(isPalindromo('anitalavalatina'))
 
 
