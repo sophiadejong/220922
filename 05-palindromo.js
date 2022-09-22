@@ -8,9 +8,22 @@ const isPalindromo = (str) => {
 const isPalindromo2 = (str) => {
     str.split('').reverse().join('') === str
 }
+const str = "Hola Mundo Jajaja"
+console.log(str.split('o'))
+// console.log(isPalindromo('anitalavalatina'))
 
-console.log(isPalindromo('anitalavalatina'))
+const nums = [1,2,3,4]
+console.log(nums.reverse())
 
+const strs = ['holi', 'mundo','lol']
+console.log(strs.join('|'))
+
+const countWords = (str) => {
+    const arr = str.split(' ');
+    return arr.length
+}
+
+console.log(countWords('this is a phrase'))
 
 // const isPalindromo = (str) => {
 //     var newChain = "";
