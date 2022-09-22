@@ -28,7 +28,4 @@ while (true) {
             console.log(parseInt(n1) / parseInt(n2))
             break;
     }
-
-    
-
 }
